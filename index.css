@@ -29,7 +29,7 @@ body{
     width: 25%;
     border-radius: 20px;
 }
-.main-container>h1{
+.main-container>h2{
     margin: 60% 0 0 0;
     font-weight: 700;
     color: hsl(223, 47%, 23%);
@@ -110,7 +110,7 @@ body{
         padding: 5%;
         margin: 0 5%;
     }
-    .main-container>h1{
+    .main-container>h2{
         margin: 50% 0 0 0;
     }
     .main-container>p{
