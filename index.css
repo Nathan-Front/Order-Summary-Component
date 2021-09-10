@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    font-family: Red Hat Display, sans-serif;
+    background: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+.main-container{
+    margin: 0;
+    padding: 0 3%;
+    background-image: url(images/illustration-hero.svg);
+    background-size: 100% 30%;
+    background-color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    border-radius: 20px;
+}
+.main-container>h1{
+    margin: 60% 0 0 0;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+.main-container>p{
+    margin: 5%;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.main-container>div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    position: relative;
+    line-height: 1.5em;
+}
+.main-container>div>img{
+    float: left;
+    margin: 0 0 0 5%;
+    padding: 0;
+    width: 10%;
+}
+.main-container>div>p>span{
+    display: block;
+    margin: 0 0 0 20%;
+    white-space: nowrap;
+}
+.main-container>div>p>span:nth-child(1){
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.main-container>div>p>span:nth-child(2){
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.main-container>div>a{
+    margin: 0 5% 0 0;
+    position: absolute;
+    right: 0;
+    font-weight: 900;
+}
+.main-container>a{
+    margin: 0;
+    padding: 0;
+}
+.main-container>a:nth-child(4){
+    margin: 10% 0 0 0;
+    background: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 3% 0;
+    font-weight: 900;
+    box-shadow: 0px 10px 10px hsl(225, 100%, 94%);
+}
+.main-container>a:nth-child(5){
+    margin: 1% 0 5% 0;
+    border-radius: 10px;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    width: 100%;
+    padding: 5% 0;
+    font-weight: 900;
+}
+@media only screen and (max-width:1000px){
+    body{
+        width: auto;
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size: contain;
+    }
+    .main-container{
+        width: 100%;
+        padding: 5%;
+        margin: 0 5%;
+    }
+    .main-container>h1{
+        margin: 50% 0 0 0;
+    }
+    .main-container>p{
+        margin: 5%;
+        line-height: 2em;
+    }
+    .main-container>a:nth-child(4){
+        margin: 5% 0 0 0;
+    }
+    .main-container>a:nth-child(5){
+        margin: 1% 0 0 0;
+    }
+}
